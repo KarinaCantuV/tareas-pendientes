@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background: rgb(237, 106, 163);
+    background: radial-gradient(circle, rgba(237, 106, 163, 1) 0%, rgba(52, 134, 232, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    color: #304463;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor {
+    border-radius: 25px;
+    background-color: #A7E6FF;
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.encabezado {
+    padding: 10px 0 5px 0;
+}
+
+.agregar {
+    background-color: #e0d990;
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;
+}
+
+.agregar input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(219, 204, 184);
+    padding-left: 10px;
+}
+
+.agregar input::placeholder {
+    font-size: 1.3rem;
+    color: #003285;
+}
+
+.agregar i {
+    font-size: 45px;
+    color: #003285;
+}
+
+.agregar i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/*sección de tareas*/
+.tareas h2 {
+    margin-bottom: 20px;
+    color: #1F316F;
+}
+
+.tareas li {
+    background-color: #e0d990;
+    border-radius: 15px;
+    padding: 10px;
+    color: #003285;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tareas {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.tareas i:hover {
+    color: #5B99C2;
+    cursor: pointer;
+}
+
+.tachado {
+    text-decoration: line-through;
+    color: #5B99C2;
+}
